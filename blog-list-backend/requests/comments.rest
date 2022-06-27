@@ -1,0 +1,13 @@
+POST http://localhost:3003/api/blogs/62849e66850becea9efd72d1/comments
+content-type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1pa2UiLCJpZCI6IjYyODIxYzJmMTJkZGEzODI2YjI1MDgzZCIsImlhdCI6MTY1NTk3MDg5MCwiZXhwIjoxNjU1OTc0NDkwfQ.O0YS0WX8MCWCa2VYDM-XTy9BkvV__ENoGmfg01mT65Q
+
+{
+  "text": "awesome too"
+}
+
+###
+
+GET http://localhost:3003/api/blogs/62849e66850becea9efd72d1/comments
+content-type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1pa2UiLCJpZCI6IjYyODIxYzJmMTJkZGEzODI2YjI1MDgzZCIsImlhdCI6MTY1NTk3MDg5MCwiZXhwIjoxNjU1OTc0NDkwfQ.O0YS0WX8MCWCa2VYDM-XTy9BkvV__ENoGmfg01mT65Q
